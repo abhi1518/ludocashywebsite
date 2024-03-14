@@ -1,0 +1,63 @@
+.phone-input-container {
+    margin-bottom: 10px;
+  }
+  
+  .phone-input-wrapper {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px;
+    height: 50%
+  }
+  
+  .phone-input-wrapper span {
+    margin-right: 5px;
+  }
+  
+  .divider {
+    height: 100%;
+    border-left: 1px solid #ccc;
+    margin: 0 5px;
+  }
+  
+  .desktopView {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .mobileView {
+    display: none;
+  }
+  
+  .horizantal_line {
+    border: 1px solid white !important;
+    margin: 0px 30px !important;
+  }
+  
+  .horizantal_line_mobile {
+    border: 1px solid white !important;
+    margin: 0px 0px !important;
+  }
+  
+  .horizantal_line_terms_condition{
+    border: 1px solid black !important;
+    margin: 0px 0px !important;
+  }
+
+  .background-container {
+    width: 100%; /* Adjust as needed */
+    background-image: url('img/mobilebanner.png');
+}
+
+  @media only screen and (max-width: 600px) {
+    .desktopView {
+      display: none;
+    }
+  
+    .mobileView {
+      display: block;
+    }
+  }
+
